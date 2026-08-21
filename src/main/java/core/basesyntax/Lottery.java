@@ -8,7 +8,7 @@ public class Lottery {
 
     private static final int MAX_NUMBER = 101;
 
-    public Ball getRandomBall(){
+    public Ball getRandomBall() {
         String color = colorSupplier.getRandomColor();
         int number = random.nextInt(MAX_NUMBER);
 
